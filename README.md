@@ -11,29 +11,31 @@ Una convolución es el proceso de sumar cada elemento de la imagen a su vecino, 
 
 ## Kernels utilizados 🔢
 ### Sharpen 🔪
-por [Ximena Valeria Cabañas Sánchez A01366707](https://github.com/ValeCabanas "Ximena Valeria Cabañas Sánchez A01366707")
-El sharpen de una imagen aumenta el contraste entre las regiones brillantes y oscuras para resaltar las características.
+por [Ximena Valeria Cabañas Sánchez A01366707](https://github.com/ValeCabanas "Ximena Valeria Cabañas Sánchez A01366707")</br>
+El sharpen de una imagen aumenta el contraste entre las regiones brillantes y oscuras para resaltar las características.</br>
 ![Sharpen](/output/k1.png)
-### Edge Detection 1 👁‍🗨🔴
-por [Juan Carlos Varela Téllez A01367002](https://github.com/JuanVaTe "Juan Carlos Varela Téllez A01367002")
-La detección de bordes incluye una variedad de métodos matemáticos que tienen como objetivo identificar bordes, curvas en una imagen digital en las que el brillo de la imagen cambia bruscamente o, más formalmente, tiene discontinuidades.
 
+### Edge Detection 1 👁‍🗨🔴
+por [Juan Carlos Varela Téllez A01367002](https://github.com/JuanVaTe "Juan Carlos Varela Téllez A01367002")</br>
+La detección de bordes incluye una variedad de métodos matemáticos que tienen como objetivo identificar bordes, curvas en una imagen digital en las que el brillo de la imagen cambia bruscamente o, más formalmente, tiene discontinuidades.</br>
+![Edge Detection 1](/output/k2.png)
 
 ### Edge Detection 2 👁‍🗨🟡
-por [Tomás Ulises Peña Martínez A01366603](https://github.com/Tupm3 "Tomás Ulises Peña Martínez A01366603")
-La detección de bordes incluye una variedad de métodos matemáticos que tienen como objetivo identificar bordes, curvas en una imagen digital en las que el brillo de la imagen cambia bruscamente o, más formalmente, tiene discontinuidades.
-
+por [Tomás Ulises Peña Martínez A01366603](https://github.com/Tupm3 "Tomás Ulises Peña Martínez A01366603")</br>
+La detección de bordes incluye una variedad de métodos matemáticos que tienen como objetivo identificar bordes, curvas en una imagen digital en las que el brillo de la imagen cambia bruscamente o, más formalmente, tiene discontinuidades.</br>
+![Edge Detection 2](/output/k3.png)
 
 ### Edge Detection 3 👁‍🗨🟢
-por [Alan Eduardo Aquino Rosas A01366912](https://github.com/Akinohakar "Alan Eduardo Aquino Rosas A01366912")
-La detección de bordes incluye una variedad de métodos matemáticos que tienen como objetivo identificar bordes, curvas en una imagen digital en las que el brillo de la imagen cambia bruscamente o, más formalmente, tiene discontinuidades.
-
+por [Alan Eduardo Aquino Rosas A01366912](https://github.com/Akinohakar "Alan Eduardo Aquino Rosas A01366912")</br>
+La detección de bordes incluye una variedad de métodos matemáticos que tienen como objetivo identificar bordes, curvas en una imagen digital en las que el brillo de la imagen cambia bruscamente o, más formalmente, tiene discontinuidades.</br>
+![Edge Detection 3](/output/k4.png)
 
 ### Box Blur 📦
-por [Keyuan Zhao A01366831](https://github.com/Keyuan01 "Keyuan Zhao A01366831")
-Es un filtro lineal de dominio espacial en el que cada píxel de la imagen resultante tiene un valor igual al valor medio de sus píxel vecinos en la imagen de entrada. Es una forma de filtro de paso bajo (difuminado), un cuadro de desenfoque de 3x3 con radio igual a uno, se puede escribir como matriz.
-
+por [Keyuan Zhao A01366831](https://github.com/Keyuan01 "Keyuan Zhao A01366831")</br>
+Es un filtro lineal de dominio espacial en el que cada píxel de la imagen resultante tiene un valor igual al valor medio de sus píxel vecinos en la imagen de entrada. Es una forma de filtro de paso bajo (difuminado), un cuadro de desenfoque de 3x3 con radio igual a uno, se puede escribir como matriz.</br>
+![Box Blur](/output/k5.png)
 
 ### Gaussian Blur (3x3) 👨🏻‍🔬
-por [Tomás Ulises Peña Martínez A01366603](https://github.com/Tupm3 "Tomás Ulises Peña Martínez A01366603")
-Es el resultado de convolucionar una imagen con la función de Gauss con el fin de reducir el ruido y detalle de una imagen dándole un efecto parecido a estar viendo la imagen a través de una ventana traslúcida. Tiene múltiples usos, pues puede utilizarse como preprocesamiento para software de visión por computadora hasta sólo un filtro de cancelación de ruido en la imagen.
+por [Tomás Ulises Peña Martínez A01366603](https://github.com/Tupm3 "Tomás Ulises Peña Martínez A01366603")</br>
+Es el resultado de convolucionar una imagen con la función de Gauss con el fin de reducir el ruido y detalle de una imagen dándole un efecto parecido a estar viendo la imagen a través de una ventana traslúcida. Tiene múltiples usos, pues puede utilizarse como preprocesamiento para software de visión por computadora hasta sólo un filtro de cancelación de ruido en la imagen.</br>
+![Gaussian Blur](/output/k6.png)
