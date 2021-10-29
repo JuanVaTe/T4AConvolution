@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 from PIL import Image
 from scipy import ndimage
 
-def boxblur():
-    Is = Image.open('Team4All.png')
+def boxblur(img):
+    Is = Image.open(img)
     I = Is.convert('L')
     I = numpy.asarray(I)
     I = I / 255.0
@@ -65,6 +65,3 @@ def padding_boxblur():
 
     plt.grid(False)
     plt.show()
-
-boxblur()
-padding_boxblur()
