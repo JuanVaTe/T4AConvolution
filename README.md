@@ -3,7 +3,7 @@
 ## Objetivo 🎯
 Este programa se hizo con la intención de aprender sobre procesamiento de imágenes y el funcionamiento general de [GitHub](https://en.wikipedia.org/wiki/GitHub "GitHub")
 
-## Funcionamiento :fa-sun-o:
+## Funcionamiento ⚙
 El programa [main.py](https://github.com/JuanVaTe/T4AConvolution/blob/main/main.py "main.py") importa las funciones y diferentes kernels de los programas [Convolucion_Sharpen.py](https://github.com/JuanVaTe/T4AConvolution/blob/main/Convolucion_Sharpen.py "Convolucion_Sharpen.py"), [EdgeDetection1.py](https://github.com/JuanVaTe/T4AConvolution/blob/main/EdgeDetection1.py "EdgeDetection1.py"), [edgeDetection2.py](https://github.com/JuanVaTe/T4AConvolution/blob/main/edgeDetection2.py "edgeDetection2.py"), [EdgeDetection3.py](https://github.com/JuanVaTe/T4AConvolution/blob/main/EdgeDetection3.py "EdgeDetection3.py"), [GaussianBlur.py](https://github.com/JuanVaTe/T4AConvolution/blob/main/GaussianBlur.py "GaussianBlur.py") y [boxblur.py](https://github.com/JuanVaTe/T4AConvolution/blob/main/boxblur.py "boxblur.py").
 
 ## ¿Convoluciones? 💫
