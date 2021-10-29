@@ -53,5 +53,3 @@ def sharpen(img):
     plt.grid(False)
     
     plt.show()
-
-sharpen('hr.png')

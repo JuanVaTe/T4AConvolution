@@ -35,4 +35,3 @@ def gaussianBlur(imagename):
     plt.grid(False)
     plt.show()
     
-gaussianBlur('batita.png')

@@ -34,7 +34,7 @@ def edgeDetection3(imageDetection):
    plt.grid(False)
    plt.show()
 
-edgeDetection3('Arenoman.jpg')
+
 
 
 

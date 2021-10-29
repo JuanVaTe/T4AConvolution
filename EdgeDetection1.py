@@ -17,7 +17,7 @@ def edgeDet1(img):
 
     I = numpy.pad(I, 30, pad_with, padder=1)
 
-    #kernell Edge Detection version 1
+    #kernel Edge Detection version 1
     k = numpy.array([[1, 0, -1], [0, 0, 0], [-1, 0, 1]])
 
     #Convolucion
@@ -40,4 +40,3 @@ def edgeDet1(img):
     plt.grid(False)
     plt.show()
 
-edgeDet1('Arenoman.jpg')
