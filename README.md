@@ -1,4 +1,4 @@
-# :tw-2b50: Team4All Convoluciones :tw-2b50:
+# ⭐ Team4All Convoluciones ⭐
 
 ## Objetivo 🎯
 Este programa se hizo con la intención de aprender sobre procesamiento de imágenes y el funcionamiento general de [GitHub](https://en.wikipedia.org/wiki/GitHub "GitHub")
@@ -13,7 +13,7 @@ Una convolución es el proceso de sumar cada elemento de la imagen a su vecino, 
 ### Sharpen 🔪
 por [Ximena Valeria Cabañas Sánchez A01366707](https://github.com/ValeCabanas "Ximena Valeria Cabañas Sánchez A01366707")
 El sharpen de una imagen aumenta el contraste entre las regiones brillantes y oscuras para resaltar las características.
-[![Sharpen](Sharpen "Sharpen")](/output/k1.png "Sharpen")
+![Sharpen](/output/k1.png)
 ### Edge Detection 1 👁‍🗨🔴
 por [Juan Carlos Varela Téllez A01367002](https://github.com/JuanVaTe "Juan Carlos Varela Téllez A01367002")
 La detección de bordes incluye una variedad de métodos matemáticos que tienen como objetivo identificar bordes, curvas en una imagen digital en las que el brillo de la imagen cambia bruscamente o, más formalmente, tiene discontinuidades.
