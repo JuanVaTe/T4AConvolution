@@ -3,7 +3,7 @@ import numpy
 from PIL import Image
 from scipy import ndimage
 
-def gaussianBlur(imagename):
+def edgeDetection2(imagename):
     Is = Image.open(imagename)
     I = Is.convert('L')
     I = numpy.asarray(I)
@@ -16,8 +16,7 @@ def gaussianBlur(imagename):
 
     I = numpy.pad(I, 10, pad_with, padder=0)
 
-    k0 = numpy.array([[1,2,1],[2,4,2],[1,2,1]])
-    k0 = k0 * (1/16)
+    k0 = numpy.array([[0,-1,0],[-1,4,-1],[0,-1,0]])
 
     J0 = ndimage.convolve(I, k0, mode='constant', cval=0.0)
 
@@ -29,9 +28,8 @@ def gaussianBlur(imagename):
 
     plt.subplot(2,2,2)
     plt.imshow(J0)
-    plt.xlabel('Gaussian Blur 3x3')
+    plt.xlabel('Edge Detection 2')
 
 
     plt.grid(False)
     plt.show()
-    
