@@ -65,4 +65,3 @@ def padding_boxblur(img):
 
     plt.grid(False)
     plt.show()
-
