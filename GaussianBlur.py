@@ -9,6 +9,13 @@ def gaussianBlur(imagename):
     I = numpy.asarray(I)
     I = I / 255.0
 
+    def pad_with(vector, pad_width, iaxis, kwargs):
+        pad_value = kwargs.get('padder', 10)
+        vector[:pad_width[0]] = pad_value
+        vector[-pad_width[1]:] = pad_value
+
+    I = numpy.pad(I, 10, pad_with, padder=0)
+
     k0 = numpy.array([[1,2,1],[2,4,2],[1,2,1]])
     k0 = k0 * (1/16)
 
@@ -34,6 +41,13 @@ def boxBlur(imagename):
     I = numpy.asarray(I)
     I = I / 255.0
 
+    def pad_with(vector, pad_width, iaxis, kwargs):
+        pad_value = kwargs.get('padder', 10)
+        vector[:pad_width[0]] = pad_value
+        vector[-pad_width[1]:] = pad_value
+
+    I = numpy.pad(I, 10, pad_with, padder=0)
+
     k0 = numpy.array([[1,1,1],[1,1,1],[1,1,1]])
     k0 = k0 * (1/9)
 
@@ -58,6 +72,13 @@ def edgeDetection2(imagename):
     I = Is.convert('L')
     I = numpy.asarray(I)
     I = I / 255.0
+
+    def pad_with(vector, pad_width, iaxis, kwargs):
+        pad_value = kwargs.get('padder', 10)
+        vector[:pad_width[0]] = pad_value
+        vector[-pad_width[1]:] = pad_value
+
+    I = numpy.pad(I, 10, pad_with, padder=0)
 
     k0 = numpy.array([[0,-1,0],[-1,4,-1],[0,-1,0]])
 
